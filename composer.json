@@ -17,6 +17,14 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "symfony/symfony": "2.8.0-BETA1"
     },
+    "require-dev": {
+      "sensio/generator-bundle": "~2.3",
+      "phpmd/phpmd": "~2.0",
+      "phpunit/phpunit": "~4.3",
+      "phploc/phploc": "*",
+      "squizlabs/php_codesniffer": "dev-master",
+      "sebastian/phpcpd": "*"
+    },
     "scripts": {
         "post-install-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
